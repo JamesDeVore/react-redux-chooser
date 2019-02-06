@@ -1,32 +1,22 @@
-.App {
-  text-align: center;
+body {
+  font-family:'Lato'
+}
+.TWAW-logo {
+  padding:3px;
+}
+.navbar {
+  background-color:rgb(197, 120, 238)
+}
+.navbar-nav  li  a {padding-top:1px !important; padding-bottom:1px !important;}
+.navbar {min-height:32px !important;}
+
+.btn-start {
+  background-color:rgb(197, 120, 238)
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.response {
+  background-color: blueviolet;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* div {
+  border:1px solid black;
+} */
